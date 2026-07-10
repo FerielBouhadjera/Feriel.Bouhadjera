@@ -1,0 +1,73 @@
+---
+title: ""
+author: ""
+date: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, message=FALSE}
+library(kableExtra)
+library(dplyr)
+```
+
+<!-- <details> -->
+<!--    <summary> <br></summary> -->
+<!-- </details> -->
+
+
+# PhD students
+
+
+```{r, echo=FALSE}
+phd <- c("Boubacar Diallo"  ,"2025 - 2027","Clustering for the detection of homogeneous acoustic landscapes", "co-supervised with Ndèye Niang and Vincent Audigier")
+
+tab <- matrix(phd,nrow = length(phd)/4,ncol=4,dimnames = list(NULL,c("Student", "Duration", "Research topic", "Supervisers")),byrow=TRUE)
+#kbl(tab)%>% kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+kbl(tab,
+    booktabs = TRUE,
+    align = c("l","c","l")) %>%
+  kable_styling(
+    bootstrap_options = c("hover", "striped"),
+    full_width = FALSE,
+    position = "left",
+    font_size = 15
+  ) %>%
+  column_spec(1, bold = TRUE, width = "4cm") %>%
+  column_spec(2, width = "2.5cm") %>%
+  column_spec(3, width = "8cm")
+```
+
+# Internships
+
+```{r, echo=FALSE}
+stagiaire <- c(
+  "Sabin Bohissou", "M2","6 months","2026","Supervised classification for spatial functional data",
+  "Roger Kouacou",  "M2","5 months","2026","Statistical and data mining methods applied to the Tactile Game video game platform",
+  "Lancelot Dallain, Tanguy Cesar", "M2","5 weeks","2026","Clustering of functional data with applications in oceanography",
+  "Pierre Chambet", "M2","5 weeks","2026","Clustering of hybrid data",
+  "Hugo Nguyen", "M2", "5 weeks","2025","Clustering for the detection of homogeneous acoustic landscapes",
+  "Djafarou Oulare","M2", "5 months", "2024", "Clustering for the detection of homogeneous acoustic landscapes",
+  "Marcellin Djohoundjo", "M2", "6 months", "2024", "Nonparametric prediction for object geo-localization",
+  "Koffi Amezouwui","M2",      "6 months","2023","Multiple imputation using non-parametric regression"
+)
+tab <- matrix(stagiaire,nrow = length(stagiaire)/5,ncol=5,dimnames = list(NULL,c("Intern","Level", "Duration", "Year", "Research topic")),byrow=TRUE)
+#kbl(tab)%>% kable_styling(bootstrap_options = c("striped", "hover", "condensed")) %>% column_spec(1, bold = TRUE)
+kbl(tab,
+    booktabs = TRUE,
+    align = c("l","c","c","l")) %>%
+  kable_styling(
+    bootstrap_options = c("hover", "striped"),
+    full_width = FALSE,
+    position = "left",
+    font_size = 15
+  ) %>%
+  column_spec(1, bold = TRUE, width = "4cm") %>%
+  column_spec(2, width = "2.5cm") %>%
+  column_spec(3, width = "2.5cm") %>%
+  column_spec(4, width = "2cm")
+```
+

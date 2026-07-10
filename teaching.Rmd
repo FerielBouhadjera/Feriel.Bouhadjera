@@ -1,0 +1,138 @@
+---
+title: ""
+author: ""
+date: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, message=FALSE}
+library(kableExtra)
+library(dplyr)
+```
+
+<!-- <details> -->
+<!--    <summary> <br></summary> -->
+<!-- </details> -->
+
+# Courses at CNAM
+
+<details open>
+  <summary> Introduction to functional data [(STA117)](https://cnam-idf.fr/unites/introduction-aux-donnees-fonctionnelles-sta117)<br>
+  *CNAM, Paris* [2025 -]</summary>
+* Preprocessing
+* Descriptive statistics for functional data
+* Explanatory statistics for functional data
+* R software
+ 
+ </details>  
+ 
+ <details open>
+   <summary> High-Dimensional Statistical Learning [(STA217)](https://www.cnam-paris.fr/choisir-ma-formation/par-discipline/apprentissage-statistique-en-grande-dimension-1551348.kjsp) <br>
+    *CNAM, Paris* [2025 -] </summary>
+    
+* Functional principal components methods
+* Functional data clustering methods
+* Functional data regressions methods
+* R software
+
+
+</details>
+
+<details open>
+   <summary>  Time Series Modeling and Forecasting [(STA116)](https://cnam-idf.fr/unites/modelisation-et-prevision-des-series-chronologiques-sta116) <br>
+    *CNAM, Paris* [2025 -] </summary>
+    
+* Regression models
+* Time series decomposition: Exponential Smoothing—Simple, Double, Holt-Winters 
+* Analysis of Trends and Seasonality 
+* Modeling Stationary Series: AR, MA, ARMA. Estimation, Model Selection, and Forecasting. 
+* Extension to non-stationary series: ARIMA and SARIMA. 
+
+
+</details>
+
+<details open>
+   <summary> [Biostatistics](https://ecole-pasteur.cnam.fr/tronc-commun-du-mastere-de-sante-publique-126915.kjsp?RH=pasteur_ri&RF=pasteur_tronc) <br> *CNAM-Pasteur, Paris* [2023 - 2025]</summary>
+-    Probability 
+-    Statistical inference (estimator, bias, variance, convergence, central limit theorem, classical confidence intervals)
+-    Statistical tests for 2 groups
+-    Univariate and bivariate analysis
+
+</details>
+
+<details open>
+   <summary>  Mathematical statistics [(STA104)](https://www.cnam-paris.fr/choisir-ma-formation/par-discipline/statistique-mathematique-1487936.kjsp) <br>
+    *CNAM, Paris* [2022 -] </summary>
+    
+*  Estimation : maximum likelihood, Fischer information, Cramer Rao bound
+*  Confidence intervals
+*  Tests of mean, variance and proportion 
+*  Non-parametric statistics
+
+
+
+</details>
+
+<details open>
+   <summary> Probability  [(STA103)](https://www.cnam-paris.fr/choisir-ma-formation/par-discipline/calcul-des-probabilites-1487935.kjsp) <br>
+    *CNAM, Paris* [2022 -] </summary>
+    
+* random variables
+* Usual laws
+* Generative and characterestic functions 
+* convergence
+
+
+</details>
+
+
+<details open>
+   <summary> Advanced multivariate analysis [(STA201)](https://www.cnam-paris.fr/choisir-ma-formation/par-discipline/analyse-multivariee-approfondie-1487944.kjsp) <br>
+    *CNAM, Paris* [2022 -] </summary>
+    
+* Nonparametric statistial methods
+* R software
+
+</details>
+
+<br>
+
+# Courses at other institutions
+
+<details open>
+   <summary> [Institut Agro Montpellier](https://www.institut-agro-montpellier.fr/) [2021 - 2022] </summary>
+- **Statistics with R**: Statistical analysis of data wih R Markdown (Statistical tests, Modeling and variable selection)   
+
+</details>
+
+<details open>
+   <summary> [Institut Supérieur de Gestion](https://www.isg.fr/campus/ecole-commerce-lille/), Lille [2021 - 2022] </summary>
+- **Financial mathematics:** Option Pricing in Financial Markets, the Black-Scholes Model, Real Options and Investment Decisions, Enhanced NPV
+
+</details>
+
+<details open>
+   <summary> [Université de Lille](https://www.univ-lille.fr/), Lille [2020 - 2021] </summary>
+-  **Fundamental Mathematics:** Limits, continuity, differentiability, integration, differential equations, vector spaces, linear maps and matrix calculus, series expansions 
+
+</details>
+
+
+<details open>
+   <summary>  [Université du Littoral Côte d'Opale](https://www.univ-littoral.fr/), Boulogne-sur-Mer [2019 - 2020] </summary>
+-  **General Mathematics and Statistics:** Matrices, systems of linear equations, statistical series with one and two variables, time series, growth measurement 
+
+</details>
+
+<details open>
+   <summary> [Université Badji Mokhtar Annaba](https://www.univ-annaba.dz/), Algérie [2016 - 2017] </summary>
+-  **Biostatistics:** Descriptive statistics, linear regression, parametric and nonparametric tests
+-  **Statistical methods:** Sampling and estimation, linear regression, usual tests, analysis of variance
+-  **Mathematics for physics:** EDP, derivative and Taylor series, Fourier series, Fourier transform
+
+</details>
+

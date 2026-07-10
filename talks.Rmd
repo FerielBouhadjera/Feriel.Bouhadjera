@@ -1,0 +1,72 @@
+---
+title: ""
+output: html_document
+bibliography: bibliography.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r, echo=FALSE,message=FALSE}
+library(bibtex)
+refs <- bibtex::read.bib("bibliography.bib")
+```
+
+
+# International conferences
+
+* `r  utils:::format.bibentry(refs["bouhadjera2022Bliss"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2019rabat"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2017constantine"],style = "html")`
+
+# National conferences and worshops
+
+* `r  utils:::format.bibentry(refs["diallo26egc"],style = "html")` ([link](https://hal.science/hal-05488620)) ([pdf](https://hal.science/hal-05488620v1/file/B_Diallo_et_al_EGC2026.pdf))
+
+* `r  utils:::format.bibentry(refs["diallo26_jds"],style = "html")` ([link](https://hal.science/hal-05589708)) ([pdf](https://hal.science/hal-05589708v1/file/BD_et_al_jds%20%281%29.pdf))
+
+
+* `r  utils:::format.bibentry(refs["bouhadjera2024regression"],style = "html")` ([link](url={https://hal.science/hal-05010361))
+
+* `r  utils:::format.bibentry(refs["bouhadjera2022bayesian"],style = "html")` ([link](url={https://hal.inrae.fr/hal-04189804))
+
+* `r  utils:::format.bibentry(refs["bouhadjera2021Phenodyn"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2019Lens"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2019Annaba"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2017Constantine"],style = "html")`
+
+# Talks in seminars
+
+* `r  utils:::format.bibentry(refs["bouhadjera2023lille"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2023Compiègne"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2022CNAM"],style = "html")` ([link](url={https://maths.cnam.fr/IMG/pdf/expose_axe_cnam_bouhadjera.pdf))
+
+* `r  utils:::format.bibentry(refs["bouhadjera2021Univ_Montpellier"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2021Valenciennes"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2021Lille"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2021Toulouse"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2021Poitiers"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2021Strasbourg"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2021Alger"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2018Alger"],style = "html")`
+
+* `r  utils:::format.bibentry(refs["bouhadjera2018Calais"],style = "html")`
+
+

@@ -1,0 +1,45 @@
+---
+title: ""
+bibliography: bibliography.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Research papers
+
+```{r, echo=FALSE,message=FALSE}
+library(bibtex)
+refs <- bibtex::read.bib("bibliography.bib")
+```
+
+
+* `r  utils:::format.bibentry(refs["bouhadjera2023SP"],style = "html")` ([link](https://link.springer.com/article/10.1007/s00362-022-01325-9))
+
+* `r  utils:::format.bibentry(refs["bouhadjera2023CSTM"],style = "html")` ([link](https://www.tandfonline.com/doi/full/10.1080/03610926.2021.1979584))
+
+* `r  utils:::format.bibentry(refs["bouhadjera2022CSTM"],style = "html")` ([link](https://www.tandfonline.com/doi/full/10.1080/03610926.2020.1870142))
+
+* `r  utils:::format.bibentry(refs["benrabah2022SP"],style = "html")` ([link](https://link.springer.com/article/10.1007/s00362-021-01240-5))
+
+* `r  utils:::format.bibentry(refs["bouhadjera2022OM"],style = "html")` ([pdf](https://www.opuscula.agh.edu.pl/vol42/6/art/opuscula_math_4238.pdf))
+
+* `r  utils:::format.bibentry(refs["bouhadjera2021DM"],style = "html")` ([html](https://www.degruyterbrill.com/document/doi/10.1515/demo-2021-0107/html))
+
+* `r  utils:::format.bibentry(refs["bouhadjera2021SPL"],style = "html")` ([link](https://www.sciencedirect.com/science/article/pii/S0167715221001474?via%3Dihub))
+
+
+# PhD Thesis
+
+* `r  utils:::format.bibentry(refs["bouhadjera2020estimation"],style = "html")` ([link](https://theses.hal.science/tel-03134914v1))
+
+# Preprints
+
+* `r  utils:::format.bibentry(refs["bouhadjera2019arxiv"],style = "html")` ([link](https://arxiv.org/pdf/1901.09555))
+
+# Proceedings
+
+* `r  utils:::format.bibentry(refs["diallo26egc"],style = "html")` ([link](https://hal.science/hal-05488620v1/file/B_Diallo_et_al_EGC2026.pdf))
+* `r  utils:::format.bibentry(refs["diallo26almds"],style = "html")` 
