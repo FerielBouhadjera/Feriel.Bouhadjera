@@ -15,5 +15,5 @@ navbar:
       href: supervision.html
 output:
   html_document:
-    theme: flatly
+    theme: darkly
     self_contained: TRUE
